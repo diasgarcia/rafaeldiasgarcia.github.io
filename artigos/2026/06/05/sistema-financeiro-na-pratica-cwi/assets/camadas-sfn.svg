@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 690" role="img" aria-labelledby="title desc">
+  <title id="title">Camadas principais do Sistema Financeiro Nacional</title>
+  <desc id="desc">Diagrama em camadas do Sistema Financeiro Nacional com órgãos normativos, supervisores e operadores alinhados por área.</desc>
+  <defs>
+    <filter id="shadow" x="-8%" y="-18%" width="116%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.22"/>
+    </filter>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f8fb"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="690" rx="28" fill="url(#paper)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="640" y="58" text-anchor="middle" font-size="30" font-weight="800" fill="#101828">
+      Sistema Financeiro Nacional em camadas
+    </text>
+    <text x="640" y="91" text-anchor="middle" font-size="16" fill="#667085">
+      Órgãos normativos, supervisores e operadores agrupados por área
+    </text>
+
+    <g transform="translate(54 126)">
+      <text x="0" y="42" font-size="16" font-weight="800" fill="#c40f4f" letter-spacing="1">NORMATIVOS</text>
+      <text x="0" y="66" font-size="13" fill="#667085">definem diretrizes</text>
+    </g>
+
+    <g transform="translate(54 270)">
+      <text x="0" y="42" font-size="16" font-weight="800" fill="#0395c9" letter-spacing="1">SUPERVISORES</text>
+      <text x="0" y="66" font-size="13" fill="#667085">fiscalizam</text>
+    </g>
+
+    <g transform="translate(54 414)">
+      <text x="0" y="42" font-size="16" font-weight="800" fill="#0b2530" letter-spacing="1">OPERADORES</text>
+      <text x="0" y="66" font-size="13" fill="#667085">operam na ponta</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="230" y="126" width="594" height="94" rx="8" fill="#c80d4f"/>
+      <text x="527" y="164" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff">CMN</text>
+      <text x="527" y="194" text-anchor="middle" font-size="20" font-weight="800" fill="#ffe4ef">Conselho Monetário Nacional</text>
+
+      <rect x="838" y="126" width="190" height="94" rx="8" fill="#c80d4f"/>
+      <text x="933" y="181" text-anchor="middle" font-size="25" font-weight="800" fill="#ffffff">CNSP</text>
+
+      <rect x="1042" y="126" width="190" height="94" rx="8" fill="#c80d4f"/>
+      <text x="1137" y="181" text-anchor="middle" font-size="25" font-weight="800" fill="#ffffff">CNPC</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="230" y="270" width="392" height="94" rx="8" fill="#0ea5d8"/>
+      <text x="426" y="327" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff">Banco Central</text>
+
+      <rect x="634" y="270" width="190" height="94" rx="8" fill="#0ea5d8"/>
+      <text x="729" y="327" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff">CVM</text>
+
+      <rect x="838" y="270" width="190" height="94" rx="8" fill="#0ea5d8"/>
+      <text x="933" y="327" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff">SUSEP</text>
+
+      <rect x="1042" y="270" width="190" height="94" rx="8" fill="#0ea5d8"/>
+      <text x="1137" y="327" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff">PREVIC</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="230" y="414" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="325" y="448" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Bancos e</text>
+      <text x="325" y="472" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Caixa Econômica</text>
+
+      <rect x="432" y="414" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="527" y="448" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Adm. de</text>
+      <text x="527" y="472" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">consórcio</text>
+
+      <rect x="230" y="522" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="325" y="556" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Cooperativas</text>
+      <text x="325" y="580" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">de crédito</text>
+
+      <rect x="432" y="522" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="527" y="556" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">CTVMs e</text>
+      <text x="527" y="580" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">DTVMs</text>
+
+      <rect x="634" y="414" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="729" y="448" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Bolsa de</text>
+      <text x="729" y="472" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">valores</text>
+
+      <rect x="634" y="522" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="729" y="556" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Fundos de</text>
+      <text x="729" y="580" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">investimento</text>
+
+      <rect x="838" y="414" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="933" y="460" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Seguradoras</text>
+
+      <rect x="1042" y="414" width="190" height="84" rx="8" fill="#0b2530"/>
+      <text x="1137" y="448" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Fundos de</text>
+      <text x="1137" y="472" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">pensão</text>
+    </g>
+
+    <text x="640" y="650" text-anchor="middle" font-size="13" fill="#667085">
+      Visão simplificada para estudo. Alguns mercados e instituições foram agrupados para caber no desenho.
+    </text>
+  </g>
+</svg>
